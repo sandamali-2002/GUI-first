@@ -1,0 +1,28 @@
+/*Nav Styles*/
+
+.nav-main-wrapper{
+    width: 100%;
+    display: flex;
+    padding: 15px 50px;
+}
+
+.nav-sub-wrappper{
+   width: fit-content;
+   margin-left: auto; 
+}
+
+.nav-item-wrapper{
+    padding: 0 10px;
+    display: flex;
+   flex-direction: row ;
+   gap: 50px;
+}
+.nav-item{
+    font-size: large;  
+    padding: 10px 0;
+}
+
+.nav-item:hover{
+    color: #DF9318; 
+    border-bottom: 2px solid #DF9318;
+}
