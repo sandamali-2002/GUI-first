@@ -1,0 +1,32 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Lexend+Zetta:wght@100..900&display=swap');
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensure the entire page covers full height */
+    width: 100%;  /* Ensure full width */
+  }
+  
+  #root {
+    height: 100%; /* Root container spans full height */
+    width: 100%;  /* Full width */
+  }
+  
+  
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inria Serif", serif;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,173 @@
+.plane_product {
+    margin: 0 auto; /* Center the content horizontally */
+   margin-top: 600px;
+    padding: 20px; /* Adjust padding for spacing */
+    max-width: 800px;
+    display: flex;
+    gap: 20px;
+    
+    justify-content: center;
+    position: relative;
+    transform: translateY(-50%);
+    
+    border-radius :10px; /* Adjust for perfect centering */
+}
+
+.plane_pic {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.plane_info {
+    display: block;
+    flex-direction: column;
+   
+    color: #fff; /* For better visibility on dark background */
+    font-size: 16px; /* Adjust font size for readability */
+    line-height: 1; /* Add spacing between lines */
+    font-family: "Plus Jakarta Sans", serif;
+    padding: 20px; /* Adjust padding for spacing */
+}
+.plane_pic:hover{
+    box-shadow: 0 0 10px 5px #DF9318; /* Add shadow on hover */
+    transition: 0.5s; /* Smooth transition effect */
+}
+
+  
+.products{
+    background-color: rgb(19, 18, 18);
+}
+
+.product_grid{
+    display: grid;
+    margin-left:150px ;
+    margin-right: 150px;
+    grid-template-columns:1fr 1fr 1fr ;
+    gap: 20px;
+   
+}
+.product_priview{
+    display: grid;
+}
+.product_info{
+    display: inline-block;
+    background-color: rgb(56, 54, 54);
+   
+    box-shadow: 0 0 10px 5px #131312;
+    
+}
+.product_pic {
+    width: 100%; /* Adjust to container's width */
+    height: 300px; /* Fixed height to ensure consistency */
+    object-fit: cover; /* Ensures the image fills the space without distortion */
+    border-radius: 10px; 
+
+}
+.product_item{
+    border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.product_priview:hover{
+    box-shadow: 0 0 10px 5px #DF9318; /* Add shadow on hover */
+    transition: 0.5s; /* Smooth transition effect */
+}
+h1{
+    color: #fff;
+    font-size: 40px;
+    font-family: "Lexend Zetta", serif;
+    text-align: center;
+    margin-top: 0px;
+    
+    
+    
+}
+
+.produnt-bigpic2{
+    height: 1000px;
+}
+.big_pic2{
+    display: flex;
+    justify-content: right;
+    margin-top: 250px;
+    margin-right: 150px;
+
+}
+.h-row{
+    border: none; /* Remove default styling */
+      height: 2px;  /* Adjust thickness */
+      background-color:#DF9318; /* Set color to white */
+      margin: 150px 0;
+      box-shadow: #DF9318; 
+}
+.product_row{
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    gap: 200px;
+}
+.column{
+    flex:1; 
+    display: flex;
+
+}
+
+.big_pic1{
+    display: flex;
+    justify-content: left;
+    
+    margin-left: 150px;
+}
+.big_pic1_info{
+    
+    display: flex;
+    flex-direction: column;;
+   justify-content: center;
+    align-items: center;
+   
+    
+}
+h2{
+    font-family: "Lexend Zetta", serif;
+    text-align: center;
+    font-weight: 300;
+}
+.product-bigpic2{
+    height: 1200px;
+    padding-top: 0;
+    
+}
+.product_row2{
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    gap: 200px;
+    margin-top: 0;
+}
+
+
+.big_pic_info2{
+    
+        display: flex;
+        flex-direction: column;;
+      align-content: center;
+      justify-content: center;
+         margin-left: 340px;
+
+       
+        
+    }   
+.big_pic2{
+    display: flex;
+    justify-content: right;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 150px;
+    
+ 
+   
+}    
+.product-bigpic3{
+    height: 1000px;
+    margin-right: 120px;
+}

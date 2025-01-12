@@ -1,0 +1,74 @@
+.home{
+  background-image: url(../assets/home.png);
+  background-size: cover; /* Ensures the image covers the entire container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the start of the container */
+    height: 100vh; /* Full viewport height */
+   
+    background-color: #000; /* Black background */
+    color: rgb(253, 252, 252);
+    text-shadow: 2px 2px 5px rgba(1, 1, 1, 1); /* White text color */
+  }
+  
+  .container {
+   
+    text-align: center;
+    position: absolute; 
+    top: 50%;/* Center align text */
+    justify-content: center;
+    margin-left: 60px;
+   
+   margin: 0;
+  }
+  
+  h1 {
+    font-family: "Piazzolla", serif;
+    font-size: 2rem;
+    margin: 0; /* Remove default margin */
+    font-weight: lighter;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  
+  h2 {
+    font-family: "Piazzolla", serif;
+    font-size: 2rem;
+    margin: 0; /* Remove default margin */
+    font-weight: lighter; /* Optional: make text slightly lighter */
+  }
+  
+  .para {
+    position:absolute;
+    right: 180px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+    
+    color: white; /* Adjust text color */
+     max-width: 500px;
+}
+
+.para p {
+    font-size: 16px; /* Adjust text size */
+    line-height: 1.5; 
+    font-family: "Plus Jakarta Sans", serif;
+}
+.home {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
