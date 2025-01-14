@@ -9,13 +9,14 @@ import homeImage from '../assets/home.png';
     <div class="home">
       
     <div class="container">
-        <h1>The Art of Wearing Black,</h1>
-        <h1>Perfected by Black Todd</h1>
+        <h1 class="home-topic">THE ART OF WEARING BLACK</h1>
+        <h1 class="home-topic" >PERFECTED BY BLACK TODD</h1>
+        
       </div>
     
     <div class="para">
         <p>
-            "At Black Todd, we celebrate the elegance of simplicity. Our premium black t-shirts redefine classic style, offering the perfect blend of comfort and sophistication. Whether you're making a bold statement or keeping it effortlessly cool, Black Todd is your go-to for timeless fashion. Because black is more than just a color—it's your signature."
+        "S i m p l e . B o l d. U n f o r g e t t a b l e.
         </p>
     </div>  
 </div>

@@ -7,29 +7,47 @@ import poster_2 from '../assets/products/poster 2.png';
 const Products = () => {
   return (
    <div class = "products"> 
-    <h1>Select Your Signature Look with Black Todd</h1>
+    <p class="topic">Select Your Signature Look with Black Todd</p>
+
     <div class="plane_product">
-      
+        <div class="plane_product_pic">
         <img src="src/assets/products/pexels-tubarones-16049376.jpg"  class="plane_pic"/>
-      
-        <div class="plane_info">
-          <span>- Material: 100% Cotton</span><br></br>
-          <span>- Weight: 220 GSM</span><br></br>
-          <span>- Fit: Oversized</span><br></br>
-          <span>- Color: Black</span><br></br>
-          <span>- Available sizes: S, M, L</span>
+        </div>
+        <div class="plane_product_pic">
+        <img src="src/assets/products/pexels-tubarones-16052239.jpg"  class="plane_pic"/>
+        </div>
+        <div class="plane_product_pic">
+        <img src="src/assets/products/pexels-tubarones-16049372.jpg"  class="plane_pic"/>
+        </div>
+    </div>
+    <div className="center-container">
+    <div class="plane_info">
+          <span>Material: 100% Cotton</span><br></br>
+          <span> Weight: 220 GSM</span><br></br>
+          <span> Fit: Oversized</span><br></br>
+          <span> Color: Black</span><br></br>
+          <span> Available sizes: S   M   L</span>
+          <div class="button-container">
+          <button class="Add-button">ADD TO CART</button>
+          </div>
           </div>
     </div>
 
-    <h1>OUR OWN TEMPLATES</h1>
+
+    <hr class="h-row"></hr>
+
+    <h1 >OUR OWN TEMPLATES</h1>
 
       <div class="product_grid">
         <div class="product_priview">
         <img src="src/assets/products/IMG_7261.png"  class="product_pic"/>
           <div class="product_info">
-          <span>- Fit: Oversized</span><br></br>
-          <span>- Color: Black</span><br></br>
-          <span>- Available sizes: S, M, L</span>
+          <span>Fit: Oversized</span><br></br>
+          <span> Color: Black</span><br></br>
+          <span> Available sizes: S, M, L</span>
+          <div class="button-container">
+          <button class="Add-button">ADD TO CART</button>
+          </div>
          </div>
         </div>
         
@@ -38,9 +56,13 @@ const Products = () => {
             <img src="src/assets/products/IMG_7258.png"  class="product_pic"/>
             </div>
           <div class="product_info">
-          <span>- Fit: Oversized</span><br></br>
-          <span>- Color: Black</span><br></br>
-          <span>- Available sizes: S, M, L</span>
+            <di class="vertical"></di>
+          <span>Fit: Oversized</span><br></br>
+          <span> Color: Black</span><br></br>
+          <span> Available sizes: S, M, L</span>
+          <div class="button-container">
+          <button class="Add-button">ADD TO CART</button>
+          </div>
          </div>
         </div>
         <div class="product_priview">
@@ -48,9 +70,12 @@ const Products = () => {
            <img src="src/assets/products/IMG_7219.png"  class="product_pic"/>
             </div>
           <div class="product_info">
-          <span>- Fit: Oversized</span><br></br>
-          <span>- Color: Black</span><br></br>
-          <span>- Available sizes: S, M, L</span>
+          <span> Fit: Oversized</span><br></br>
+          <span> Color: Black</span><br></br>
+          <span> Available sizes: S, M, L</span>
+          <div class="button-container">
+          <button class="Add-button">ADD TO CART</button>
+          </div>
          </div>
         </div>
 
@@ -64,14 +89,14 @@ const Products = () => {
       </div>
 
       <div class="column big_pic1_info">
-        <h2>Warning: May Contain Angels</h2>
+        <h2>WARNING: MAY CONTAIN ANGELS</h2>
       </div>
       </div>
       
       <div class="product_row2">
       
       <div class="column big_pic_info2">
-        <h2>Wrape Yourself In LOVE</h2>
+        <h2>WRAPE YOURSELF IN LOVE</h2>
       </div>
       <div class="column big_pic2">
       <img src="src/assets/products/6.png" class="product-bigpic2" />
@@ -85,12 +110,27 @@ const Products = () => {
 
       <div class="column big_pic1_info">
         <h2>
-        Wrap Yourself in Confidence
+        WRAP YOURSELF IN CONFIDENT
         </h2>
       </div>
       </div>
-      
 
+    
+      <div class="form-section">
+       <div class="form-container">
+      <form class="form">
+        <div class="form-group">
+          <label for="email">Company Email</label>
+          <input type="text" id="email" name="email" required=""/>
+        </div>
+        <div class="form-group">
+          <label for="textarea">How Can We Help You?</label>
+          <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
+        </div>
+        <button class="form-submit-btn" type="submit">Submit</button>
+      </form>
+    </div>
+    </div>
 
 
 
