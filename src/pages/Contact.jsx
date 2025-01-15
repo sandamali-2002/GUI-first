@@ -6,8 +6,9 @@ import './Contact.css'
   export default function Contact() {
   return (
     <div class='contact'>
-      <img src='src/assets/Contact/contact.jpg' class='contact_pic' />
+      <div class='contact_topic'>
       <p class='contact_para'>GET IN TOUCH</p>
+      </div>
       </div>
   )
 }
