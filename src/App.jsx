@@ -7,7 +7,7 @@ import Products from './pages/Products'
 import Buy from './pages/Buy'
 import NavBar from './Components/NavBar/NavBar'
 import './index.css'
-
+import Footer from './Components/Footer'
 function App() {
   return (
     <Router>
@@ -20,7 +20,10 @@ function App() {
         <Route path="/buy" element={<Buy />} />
 
       </Routes>
+      <Footer/>
     </Router>
+ 
+
   );
 }
 

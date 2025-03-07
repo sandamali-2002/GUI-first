@@ -3,6 +3,7 @@ import './Products.css'
 import plane from '../assets/products/plane.jpg';
 import poster_1 from '../assets/products/poster 1.png';
 import poster_2 from '../assets/products/poster 2.png';
+import ShopBanner from '../Components/ShopBanner';
 
 const Products = () => {
   return (
@@ -29,9 +30,7 @@ const Products = () => {
           <span> Fit: Oversized</span><br></br>
           <span> Color: Black</span><br></br>
           <span> Available sizes: S   M   L</span>
-          <div class="button-container">
-          <button class="Add-button">ADD TO CART</button>
-          </div>
+          
           </div>
     </div>
 
@@ -48,9 +47,7 @@ const Products = () => {
           <span>Fit: Oversized</span><br></br>
           <span> Color: Black</span><br></br>
           <span> Available sizes: S, M, L</span>
-          <div class="button-container">
-          <button class="Add-button">ADD TO CART</button>
-          </div>
+          
          </div>
         </div>
         
@@ -63,9 +60,7 @@ const Products = () => {
           <span>Fit: Oversized</span><br></br>
           <span> Color: Black</span><br></br>
           <span> Available sizes: S, M, L</span>
-          <div class="button-container">
-          <button class="Add-button">ADD TO CART</button>
-          </div>
+          
          </div>
         </div>
         <div class="product_priview">
@@ -76,9 +71,7 @@ const Products = () => {
           <span> Fit: Oversized</span><br></br>
           <span> Color: Black</span><br></br>
           <span> Available sizes: S, M, L</span>
-          <div class="button-container">
-          <button class="Add-button">ADD TO CART</button>
-          </div>
+          
          </div>
         </div>
 
@@ -110,8 +103,8 @@ const Products = () => {
       </div>
 
       <div class="product_row">
-      <div class="column big_pic1">
-      <img src="src/assets/products/poster 1 -1.png" class="product-bigpic3" />
+      <div class="column big_pic3">
+      <img src="src/assets/products/poster 1 -1.png" class="product-bigpic-3" />
       </div>
 
       <div class="column big_pic1_info">
@@ -120,24 +113,17 @@ const Products = () => {
         </h2>
       </div>
       </div>
-
+      <hr class="h-row"></hr>
     
-      <div class="form-section">
-       <div class="form-container">
-      <form class="form">
-        <div class="form-group">
-          <label for="email">Company Email</label>
-          <input type="text" id="email" name="email" required=""/>
-        </div>
-        <div class="form-group">
-          <label for="textarea">How Can We Help You?</label>
-          <textarea name="textarea" id="textarea" rows="10" cols="50" required="">          </textarea>
-        </div>
-        <button class="form-submit-btn" type="submit">Submit</button>
-      </form>
-    </div>
-    </div>
+     <div class="product_size_row">
+      <img src="src/assets/products/size chart - oversized.png" class="product-size-chart" />
+     
+     </div>
 
+     <hr class="h-row"></hr>
+     
+     
+     <ShopBanner />
 
 
     </div>

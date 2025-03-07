@@ -15,10 +15,11 @@ import homeImage from '../assets/home.png';
       </div>
     
     <div class="para">
-        <p>
+        <p class="home-para">
         "S i m p l e . B o l d. U n f o r g e t t a b l e.
         </p>
     </div>  
+    
 </div>
     
     
